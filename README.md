@@ -7,6 +7,13 @@ This repository contains the reference implementation of the BitcoinBT node soft
 BitcoinBT operates as an independent network and does not modify or affect the Bitcoin (BTC) network.
 
 ---
+🚀 BitcoinBT (BTCBT) Mainnet is now active.
+
+Official Mainnet Declaration:
+https://github.com/bitcoinbtuser/bitcoinbt-source/blob/main/docs/MAINNET_DECLARATION.md
+
+---
+
 # BitcoinBT (BTCBT) — Official Mainnet Validation Completion Declaration
 
 BitcoinBT (BTCBT) officially confirms that all pre-mainnet validation procedures and network tests have been successfully completed.
