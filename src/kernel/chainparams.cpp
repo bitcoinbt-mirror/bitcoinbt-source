@@ -413,14 +413,14 @@ public:
         m_chain_type = ChainType::BTCBT;
 
         // ★ BTCBT 전용 메시지/디스크 매직 (validation.cpp 의 MAGIC_BTCBT와 반드시 동일해야 함)
-        pchMessageStart[0] = 0xA3;
-        pchMessageStart[1] = 0xB1;
-        pchMessageStart[2] = 0xC5;
-        pchMessageStart[3] = 0xD7;
-        pchDiskMagic[0]    = 0xA3;
-        pchDiskMagic[1]    = 0xB1;
-        pchDiskMagic[2]    = 0xC5;
-        pchDiskMagic[3]    = 0xD7;
+pchMessageStart[0] = 0xB7;
+pchMessageStart[1] = 0xC4;
+pchMessageStart[2] = 0xD9;
+pchMessageStart[3] = 0xE2;
+pchDiskMagic[0]    = 0xB7;
+pchDiskMagic[1]    = 0xC4;
+pchDiskMagic[2]    = 0xD9;
+pchDiskMagic[3]    = 0xE2;
 
         // 포트/프루닝
         nDefaultPort = 8333;

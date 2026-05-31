@@ -4879,7 +4879,7 @@ void ChainstateManager::LoadExternalBlockFile(
         BufferedFile blkdat{file_in, 2 * MAX_BLOCK_SERIALIZED_SIZE, MAX_BLOCK_SERIALIZED_SIZE + 8};
         uint64_t nRewind = blkdat.GetPos();
 
-        static const unsigned char MAGIC_BTCBT[4] = {0xA3, 0xB1, 0xC5, 0xD7};
+        static const unsigned char MAGIC_BTCBT[4] = {0xB7, 0xC4, 0xD9, 0xE2};
         static const unsigned char MAGIC_BTC[4]   = {0xF9, 0xBE, 0xB4, 0xD9};
 
         while (!blkdat.eof()) {
