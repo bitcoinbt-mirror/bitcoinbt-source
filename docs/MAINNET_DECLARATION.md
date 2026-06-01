@@ -1,6 +1,10 @@
 # [OFFICIAL DECLARATION] BitcoinBT (BTCBT) Mainnet Activated
 
-**Date:** June 1, 2026
+Mainnet Activation Date:
+May 31, 2026
+
+Activation Time:
+20:00 KST (UTC+9)
 
 ---
 
