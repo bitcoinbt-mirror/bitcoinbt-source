@@ -948,10 +948,6 @@ if (consensusParams.signet_blocks) {
     CAmount coinbaseReward = (int64_t)pblock->vtx[0]->vout[0].nValue;
 result.pushKV("coinbasevalue", coinbaseReward);
 
-// BTCBT: 포크 후 첫 블록 특별 보상 2,000,000 BTCBT (display)
-if (pindexPrev->nHeight + 1 == chainparams.GetConsensus().btcbt_fork_block_height + 1) {
-    result.pushKV("btcbt_initial_reward", coinbaseReward);
-}
 // BTCBT: 포크 체인 식별 정보 삽입
 result.pushKV("btcbt_chain_id", "BTCBT");
 result.pushKV("btcbt_version", "3.0");
@@ -1078,15 +1074,9 @@ static RPCHelpMan submitblock()
     if (!new_block && accepted) {
         return "duplicate";
     }
-const CBlockIndex* pindexPrev = chainman.m_blockman.LookupBlockIndex(block.hashPrevBlock);
-const Consensus::Params& params = chainman.GetConsensus();
-if (pindexPrev && pindexPrev->nHeight + 1 == params.btcbt_fork_block_height + 1) {
-    CAmount actual = block.vtx[0]->vout[0].nValue;
-    if (actual < 200000000000000) {
-        LogPrintf("Rejected: invalid BTCBT fork reward at height %d (found %ld)\n", pindexPrev->nHeight + 1, actual);
-        return "rejected: btcbt fork block must have 2,000,000 BTCBT reward";
-    }
-}
+
+// Removed obsolete early fork reward draft validation.
+// Actual BTCBT block 903845 coinbase reward is 50 BTCBT.
 
     if (!sc->found) {
         return "inconclusive";
