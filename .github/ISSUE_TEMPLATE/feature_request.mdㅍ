@@ -1,0 +1,33 @@
+---
+name: Feature Request
+about: Suggest an improvement or new feature
+title: "[FEATURE] "
+labels: enhancement
+assignees: ''
+---
+
+## Summary
+
+Provide a short summary of the feature.
+
+## Motivation
+
+Why is this feature needed?
+
+## Proposed Solution
+
+Describe your proposed solution.
+
+## Alternatives Considered
+
+Describe any alternatives you considered.
+
+## Consensus Impact
+
+- [ ] No
+- [ ] Unsure
+- [ ] Yes
+
+## Additional Information
+
+Add any additional information here.
