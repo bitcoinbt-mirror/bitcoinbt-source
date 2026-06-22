@@ -2,79 +2,72 @@
 
 ## Project Status
 
-BitcoinBT is currently in a **public testing phase**.
+BitcoinBT is an active public mainnet project.
 
-The network, software, and infrastructure are under active development and testing.
-This project should **not** be considered production-hardened at this stage.
+The network, software, and infrastructure continue to evolve through ongoing development, testing, and community feedback. Users should understand that all blockchain software carries inherent risks and should maintain appropriate backups and security practices.
 
 ---
 
 ## Supported Versions
 
-At this time, **no released version is considered security-supported**.
-
-- All releases are provided **for testing and evaluation purposes only**
-- Security issues discovered during this phase help improve the final mainnet release
+Security reports are accepted for the latest publicly released version of BitcoinBT software.
 
 ---
 
 ## Reporting a Vulnerability
 
-If you discover a potential security vulnerability, please **do not disclose it publicly**.
+If you discover a potential security vulnerability, please do not disclose it publicly before contacting the project.
 
-### How to report
+### How to Report
 
-- Do **NOT** open a public GitHub Issue for security-related bugs
-- Contact the maintainers privately via:
+Do NOT open a public GitHub Issue for security-related vulnerabilities.
 
-📧 **info@bitcoinbt.xyz**
+Please contact the maintainers privately:
+
+**Email:** [info@bitcoinbt.xyz](mailto:info@bitcoinbt.xyz)
 
 Please include:
-- A clear description of the issue
-- Steps to reproduce (if possible)
-- The potential impact (e.g. crash, fund loss, consensus risk)
+
+* A clear description of the issue
+* Steps to reproduce (if applicable)
+* Potential impact
+* Relevant logs, screenshots, or technical details
 
 ---
 
 ## Scope of Security Issues
 
 Examples of in-scope issues include:
-- Remote crashes
-- Denial-of-service vectors
-- Consensus inconsistencies
-- Wallet fund safety issues
-- RPC or network abuse leading to security risks
 
-Out-of-scope examples include:
-- Testnet instability
-- Expected behavior during testing
-- Minor UI bugs with no security impact
+* Remote crashes
+* Denial-of-service vulnerabilities
+* Consensus inconsistencies
+* Wallet fund safety issues
+* RPC or network abuse leading to security risks
+
+Examples generally considered out of scope:
+
+* Minor UI issues
+* Documentation errors
+* Feature requests
+* Non-security related bugs
 
 ---
 
 ## Disclosure Policy
 
-- All valid security reports will be reviewed privately
-- Fixes may be released without prior public disclosure
-- Public acknowledgement may occur **after mitigation**, at the maintainers’ discretion
+* Security reports will be reviewed privately
+* Fixes may be released before public disclosure
+* Public acknowledgement may occur after mitigation when appropriate
 
 ---
 
 ## Bug Bounty
 
-There is **no bug bounty program** at this time.
+There is currently no formal bug bounty program.
 
-However, responsible disclosure during the testing phase is highly appreciated and may be acknowledged in future documentation.
-
----
-
-## Legal Notice
-
-By reporting a security issue, you agree:
-- Not to exploit the vulnerability
-- Not to disclose details before a fix is available
-- To act in good faith to help improve the network
+Responsible disclosure is appreciated and helps improve the security and reliability of the BitcoinBT network.
 
 ---
 
-Thank you for helping keep BitcoinBT secure.
+Thank you for helping improve the security of BitcoinBT.
