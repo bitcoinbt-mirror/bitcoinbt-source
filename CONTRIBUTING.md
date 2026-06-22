@@ -16,6 +16,7 @@ BitcoinBT is under active development and ongoing improvement.
 * The `main` branch represents the current integration branch
 * Consensus-related code is handled conservatively
 * Network stability and compatibility are prioritized
+* The source code is publicly available for independent review, auditing, and compilation
 
 Not all pull requests may be accepted, especially those that impact consensus rules.
 
@@ -107,7 +108,7 @@ If you discover a security vulnerability:
 
 * Do NOT open a public issue
 * Follow the reporting process described in `SECURITY.md`
-* Contact the maintainers privately
+* Contact the maintainers privately at **[info@bitcoinbt.xyz](mailto:info@bitcoinbt.xyz)**
 
 ---
 
