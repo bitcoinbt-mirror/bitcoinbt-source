@@ -18,57 +18,97 @@ BitcoinBT is designed for miners, node operators, developers, and the wider comm
 
 ---
 
+# Development Status
+
+**A new phase of technical development and review began on October 1, 2026.**
+
+BitcoinBT is beginning a new phase of development covering both the **BitcoinBT network and the official BitcoinBT mining pool**.
+
+The purpose of this development phase is to review, improve, and further develop the technical infrastructure of the BitcoinBT ecosystem.
+
+## Mining Pool — Development Goals
+
+Current development areas under consideration include:
+
+* Stratum compatibility improvements
+* Broader compatibility with SHA-256 ASIC miners
+* Mining job generation and distribution improvements
+* Difficulty and share handling review
+* Pool stability and performance improvements
+* Miner connection and job-processing improvements
+
+## BitcoinBT Network — Development Goals
+
+Current development areas under consideration include:
+
+* BitcoinBT Core improvements
+* Network and node infrastructure improvements
+* RPC and infrastructure improvements
+* Mining-related improvements
+* Performance and compatibility improvements
+* Other technical improvements identified during development
+
+> **Important:** These are current development goals and plans, not finalized specifications or guaranteed features. The actual scope and implementation may change depending on technical testing, compatibility, security considerations, and development results.
+
+Existing mainnet and mining services will continue to operate during the development process whenever possible.
+
+Significant changes will be tested and reviewed before deployment to the production environment.
+
+Further development updates will be published as work progresses.
+
+---
+
 # Network Information
 
-| Parameter | Value |
-|------------|-------|
-| Name | BitcoinBT |
-| Ticker | BTCBT |
-| Consensus | SHA-256 Proof-of-Work |
-| Fork Height | Bitcoin Block #903,844 |
-| First BTCBT Block | #903,845 |
-| Block Time | 5 Minutes |
-| Difficulty Adjustment | ASERT |
-| Maximum Supply | 21,000,000 BTCBT |
-| Maximum Block Size | 32 MB |
-| P2P Port | 8333 |
-| RPC Port | 8332 |
+| Parameter             | Value                  |
+| --------------------- | ---------------------- |
+| Name                  | BitcoinBT              |
+| Ticker                | BTCBT                  |
+| Consensus             | SHA-256 Proof-of-Work  |
+| Fork Height           | Bitcoin Block #903,844 |
+| First BTCBT Block     | #903,845               |
+| Block Time            | 5 Minutes              |
+| Difficulty Adjustment | ASERT                  |
+| Maximum Supply        | 21,000,000 BTCBT       |
+| Maximum Block Size    | 32 MB                  |
+| P2P Port              | 8333                   |
+| RPC Port              | 8332                   |
 
 ---
 
 # Features
 
-- BitcoinBT Core v3.1.1
-- Based on Bitcoin Core v26
-- Independent SHA-256 Blockchain
-- Live Public Mainnet
-- SHA-256 ASIC Mining
-- 5 Minute Block Target
-- ASERT Difficulty Adjustment
-- SegWit Support
-- Taproot Support
-- Schnorr Signature Support
-- Public Mining Pool
-- Public Blockchain Explorer
-- Windows x64 Qt Wallet
-- Default 10 GB Pruned Synchronization
-- Optional Full Blockchain Synchronization
-- Open Source Development
+* BitcoinBT Core v3.1.1
+* Based on Bitcoin Core v26
+* Independent SHA-256 Blockchain
+* Live Public Mainnet
+* SHA-256 ASIC Mining
+* 5 Minute Block Target
+* ASERT Difficulty Adjustment
+* SegWit Support
+* Taproot Support
+* Schnorr Signature Support
+* Public Mining Pool
+* Public Blockchain Explorer
+* Windows x64 Qt Wallet
+* Default 10 GB Pruned Synchronization
+* Optional Full Blockchain Synchronization
+* Open Source Development
 
 ---
 
 # Current Network Status
 
-| Service | Status |
-|----------|--------|
-| Mainnet | ✅ Active |
-| ASIC Mining | ✅ Active |
+| Service          | Status   |
+| ---------------- | -------- |
+| Mainnet          | ✅ Active |
+| ASIC Mining      | ✅ Active |
 | Block Production | ✅ Active |
-| Public Explorer | ✅ Online |
-| Mining Pool | ✅ Online |
-| Pool Statistics | ✅ Online |
-| Windows Wallet | ✅ v3.1.1 |
-| Source Code | ✅ Public |
+| Public Explorer  | ✅ Online |
+| Mining Pool      | ✅ Online |
+| Pool Statistics  | ✅ Online |
+| Windows Wallet   | ✅ v3.1.1 |
+| Source Code      | ✅ Public |
 
 ---
 
@@ -80,13 +120,13 @@ https://github.com/bitcoinbt-mirror/bitcoinbt-source/releases/tag/v3.1.1-win64
 
 ### Features
 
-- Native Windows x64 build
-- Qt graphical wallet
-- bitcoinbtd daemon
-- bitcoin-cli
-- bitcoin-wallet
-- Default 10 GB Pruned Mode
-- Optional Full Blockchain Mode
+* Native Windows x64 build
+* Qt graphical wallet
+* bitcoinbtd daemon
+* bitcoin-cli
+* bitcoin-wallet
+* Default 10 GB Pruned Mode
+* Optional Full Blockchain Mode
 
 SHA256 checksums are published with every release.
 
@@ -120,16 +160,16 @@ During the first launch of the Qt Wallet, users may choose between:
 
 ### Recommended
 
-- Pruned Mode
-- Approximately 10 GB storage
-- Faster synchronization
-- Lower disk usage
+* Pruned Mode
+* Approximately 10 GB storage
+* Faster synchronization
+* Lower disk usage
 
 ### Optional
 
-- Full Blockchain
-- Downloads and stores the complete blockchain
-- Suitable for full archival nodes
+* Full Blockchain
+* Downloads and stores the complete blockchain
+* Suitable for full archival nodes
 
 No manual configuration is required.
 
@@ -171,7 +211,7 @@ https://x.com/BTCBT_BitcoinBT
 
 ## Email
 
-info@bitcoinbt.xyz
+[info@bitcoinbt.xyz](mailto:info@bitcoinbt.xyz)
 
 ---
 
@@ -181,12 +221,12 @@ Project documentation is available in the `/docs` directory.
 
 Included documents:
 
-- Historical Project Record
-- Mainnet Declaration
-- Fork Validation Reports
-- Development Notes
-- Security Policy
-- Contribution Guide
+* Historical Project Record
+* Mainnet Declaration
+* Fork Validation Reports
+* Development Notes
+* Security Policy
+* Contribution Guide
 
 ---
 
@@ -194,15 +234,15 @@ Included documents:
 
 Please review:
 
-- SECURITY.md
-- CONTRIBUTING.md
-- CODE_OF_CONDUCT.md
+* SECURITY.md
+* CONTRIBUTING.md
+* CODE_OF_CONDUCT.md
 
 before submitting issues or pull requests.
 
 If you discover a security vulnerability, please report it privately:
 
-info@bitcoinbt.xyz
+[info@bitcoinbt.xyz](mailto:info@bitcoinbt.xyz)
 
 ---
 
